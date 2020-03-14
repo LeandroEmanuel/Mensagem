@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".MostraMensagemActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@---mensagem" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:shadowColor="#00FF5722"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FF5722"
+            android:textColorHint="#FFFFFF"
+            tools:text="aqui aparece a mensagem do utilizador" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
